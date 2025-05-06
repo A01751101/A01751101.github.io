@@ -1,59 +1,21 @@
-img {
-  max-width: 100%; }
 
 .site-header {
   position: relative; }
 
-.site-header .mdl-layout__header-row {
-  padding: 0;
-  justify-content: center; }
-
-.site-description {
-  display: block;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 10px; }
-
-.is-compact .mdl-layout__title span {
-  display: none; }
-
-.site-logo-row {
-  min-height: 200px; }
-
-.is-compact .site-logo-row {
-  min-height: auto; }
-
-.site-logo {
-  background: url(../img/site-logo.png) 50% no-repeat;
-  background-size: cover;
-  height: 120px;
-  width: 120px;
-  margin: 15px auto; }
-
-.is-compact .site-logo {
-  height: 50px;
-  width: 50px;
-  margin: 7px auto; }
-
-.site-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-transform: uppercase;
-  height: 45px; }
-  .site-navigation-row .mdl-navigation {
+  .site-header .mdl-layout__header-row {
+    display: flex;             /* Usamos Flexbox */
+    justify-content: center;   /* Centra el contenido horizontalmente */
+    align-items: center;       /* Centra el contenido verticalmente */
+    min-height: 60px;         /* Establece una altura mínima si es necesario */
+  }
+  
+  .site-description {
+    font-size: 18px;
     text-align: center;
-    max-width: 900px;
-    width: 100%; }
-  .site-navigation-row .mdl-navigation__link {
-    flex: 1;
-    line-height: 42px;
-    color: #fff; }
-  .site-navigation-row .is-active {
-    position: relative;
-    font-weight: bold;
-    opacity: 1; }
-  .site-navigation-row .mdl-navigation__link:hover {
-    opacity: 1; }
+    font-weight: 500;
+    margin: 0;                 /* Elimina cualquier margen para evitar desplazamientos no deseados */
+  }
+
 
 .mdl-layout__header .mdl-layout__drawer-button {
   color: #fff; }
