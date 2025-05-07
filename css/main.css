@@ -91,6 +91,14 @@ img.article-image {
   width: 192px;
   height: 192px; }
 
+  .portfolio-card .mdl-card__media img.article-image {
+    width: 300px;   /* Establece el ancho fijo de 300px */
+    height: 200px;  /* Establece la altura fija de 200px */
+    object-fit: cover; /* Esto asegura que la imagen cubra el área del contenedor sin distorsionarse */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+  }
+  
+
 .person1 {
   background: url("../img/person1.jpg") center/cover; }
 
