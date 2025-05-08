@@ -16,6 +16,14 @@
     margin: 0;                 /* Elimina cualquier margen para evitar desplazamientos no deseados */
   }
 
+  .no-margin-bottom {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .section--center {
+    margin-bottom: 1rem; /* o menos si lo deseas */
+  }  
 
 .mdl-layout__header .mdl-layout__drawer-button {
   color: #fff; }
